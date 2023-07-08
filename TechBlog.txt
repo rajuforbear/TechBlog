@@ -1,0 +1,107 @@
+1. Created a project (java web application) using java ant in netBeans named Techblog.
+    
+            . Inside sorch package i created four package for store the java classes
+
+                   1. com.tech.blog.helper
+                   2. ..............entities
+                   3. ..............dao
+                   4. ..............sevlets;
+    a.helper package - 
+
+        it is used to help the other java classs.
+
+    b. sevlates package -
+   
+        it is used to store all servaltes classes.
+
+    c. dao package -
+
+        it use to store the classe that are help us to interaction with databases.
+ 
+    d.  entities package - 
+
+        it is used to reprsent all the tables 
+
+        for ege if in the database have a user table then it used to store all table classes
+
+2. inside the web pages have web-inf folded inside the folder i created a web.xml file.
+
+3. inside the web pages i created index.jsp file for homepage
+
+    . for digign for homepage i used bootstrap 4
+          
+        with the help of bootstrap 4 i add css and javascript into the jsp file.
+
+        inside the web pages i create two other folder
+
+          a. css  - mystyle.css;
+    
+              . for store self made css file
+
+          b. js - myjs.js;
+
+             . for self made javascript file
+
+
+4.  Database satup -
+
+       for the database i used mySql database for help i use msqlyoug gui client
+
+              msql version 9.
+
+              jdbc version9
+
+           a. in the helper package i created a java class ConnectionProvider.java for connect with database.
+
+           b. inside the Msql database i created a database named Techblog.
+
+
+5. homepage digigning - 
+
+
+       for hompage digigning i created normal_navbarde.jsp and store all the navebare co into the file.
+        for reuse the navare 
+
+         navbare directly picked from bootstrap webside.
+
+         for normal webpage color i created primary_background class inside the css page and i can use it anywhere 
+          
+          into the code
+
+        for icon like bell,star and contact us i used font awesome icon from w3Schools
+
+
+
+6. Registration module - 
+
+         a. for user table i created User named class in entities package to take the information about user .
+         b. for store the information in databse about  user i created UserDao class in dao package
+              
+                and created a user object into UserDao class
+
+7. Login module  
+
+           Error handling for error pages
+
+          iside userDo getUserByEmailPassword()
+8.  logout module - 
+
+    degigning profile page and add logut button 
+
+9. add some features like profile view by modal code from bootstrap .....
+      digingning of profile pge
+
+    
+       dispaying  user details on clicking  on name etc.
+
+10.  update profile module ---
+
+     can change name,email,password, profile pic et
+
+     completed edit form with help of jquerry and javsscript
+
+         
+
+
+
+    
